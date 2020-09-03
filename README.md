@@ -1,5 +1,5 @@
 # blog
 strart:
 >npm i =>
->npm run dev
+>npm run dev => http://localhost:3000/
 
