@@ -1,0 +1,38 @@
+{
+  "name": "lala",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "serve": "concurrently \"npm run dev\" \"npm run mock\"",
+    "mock": "json-server -w db.json -p 4200 -d 2000"
+  },
+  "dependencies": {
+    "@types/react-redux": "^7.1.9",
+    "babel-upgrade": "^1.0.1",
+    "json-server": "^0.16.1",
+    "next": "9.5.2",
+    "next-redux-wrapper": "^6.0.2",
+    "nextjs-progressbar": "0.0.6",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.1.3",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.26.10",
+    "scss": "^0.2.4",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.2",
+    "@types/react": "^16.9.49",
+    "@types/styled-components": "^5.1.2",
+    "concurrently": "^5.3.0",
+    "typescript": "^4.0.2"
+  }
+}
