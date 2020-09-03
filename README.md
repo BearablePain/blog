@@ -1,2 +1,5 @@
 # blog
-test work
+strart:
+>npm i
+>npm run dev
+
